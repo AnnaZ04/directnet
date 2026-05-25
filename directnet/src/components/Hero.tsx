@@ -4,9 +4,9 @@ function Hero() {
   return (
     <section
       id="home"
-      className="pt-32  flex items-start bg-gray-50 pt-20 "
+      className="pt-24  flex items-start bg-gray-50 pt-20 "
     >
-      <div className="max-w-6xl mx-auto px-6 w-full grid grid-cols-2 items-center gap-12">
+      <div className="max-w-6xl mx-auto px-6 w-full grid grid-cols-1 md:grid-cols-2 items-center gap-12">
 
         {/* LEFT SIDE */}
         <motion.div
@@ -14,7 +14,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}>
 
-          <h1 className="text-5xl font-bold text-gray-800 leading-tight mb-6">
+          <h1 className=" text-3xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
             Nettoyage professionnel <br />
             pour votre maison
           </h1>
@@ -51,7 +51,7 @@ function Hero() {
           <img
             src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop"
             alt="Cleaning service"
-            className="rounded-2xl shadow-xl object-cover h-[500px] w-full"
+            className=" rounded-xl md:rounded-2xl  shadow-xl object-cover h-[500px] w-full"
           />
 
         </motion.div>
