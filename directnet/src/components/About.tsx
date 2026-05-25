@@ -14,8 +14,8 @@ function About(){
 
    
     return(
-        <section id="about" className="bg-white dark:bg-gray-800
-text-gray-800 dark:text-white ">
+        <section id="about" className="bg-gray-50
+text-gray-800  ">
           <div className="max-w-6xl mx-auto px-6">
 
             
