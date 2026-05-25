@@ -2,7 +2,7 @@ DirectNet Website
 
 -- A modern responsive website built with React and Tailwind CSS for a cleaning services company.
 
--- https://directnet-4ow9.vercel.app
+-- https://directnet-zdlm.vercel.app
 
 -- About the project:
 
